@@ -40,7 +40,7 @@ function displayServices(service){
                     <p class="card-text">${service.description}</p>
                     <p class="card-text"><small class="text-muted">Fare per kilo: ${service.farePerKilo}</small> <small class="text-muted mx-3">Capacity: ${service.capacity}</small></p>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" onclick='bookingHandeling("Saykot")' data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" onclick='bookingHandeling(${stringified})' data-bs-target="#exampleModal">
                     Book Now
                     </button>
                 </div>
